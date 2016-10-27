@@ -13,6 +13,10 @@
 		2BD78F241DC1BB6F00D57023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD78F221DC1BB6F00D57023 /* Main.storyboard */; };
 		2BD78F261DC1BB6F00D57023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD78F251DC1BB6F00D57023 /* Assets.xcassets */; };
 		2BD78F291DC1BB6F00D57023 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BD78F271DC1BB6F00D57023 /* LaunchScreen.storyboard */; };
+		2BD78F331DC1BB9D00D57023 /* FadeInAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F321DC1BB9D00D57023 /* FadeInAnimationView.m */; };
+		2BD78F3F1DC1BBCE00D57023 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F371DC1BBCE00D57023 /* ALView+PureLayout.m */; };
+		2BD78F401DC1BBCE00D57023 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F391DC1BBCE00D57023 /* NSArray+PureLayout.m */; };
+		2BD78F411DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F3B1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,17 @@
 		2BD78F251DC1BB6F00D57023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD78F281DC1BB6F00D57023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BD78F2A1DC1BB6F00D57023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD78F311DC1BB9D00D57023 /* FadeInAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeInAnimationView.h; sourceTree = "<group>"; };
+		2BD78F321DC1BB9D00D57023 /* FadeInAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeInAnimationView.m; sourceTree = "<group>"; };
+		2BD78F361DC1BBCE00D57023 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		2BD78F371DC1BBCE00D57023 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		2BD78F381DC1BBCE00D57023 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		2BD78F391DC1BBCE00D57023 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		2BD78F3A1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		2BD78F3B1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		2BD78F3C1DC1BBCE00D57023 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		2BD78F3D1DC1BBCE00D57023 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		2BD78F3E1DC1BBCE00D57023 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +73,12 @@
 		2BD78F181DC1BB6F00D57023 /* FadeInAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2BD78F341DC1BBCE00D57023 /* Framework */,
+				2BD78F301DC1BB8D00D57023 /* FadeInAnimationView */,
 				2BD78F1C1DC1BB6F00D57023 /* AppDelegate.h */,
 				2BD78F1D1DC1BB6F00D57023 /* AppDelegate.m */,
 				2BD78F1F1DC1BB6F00D57023 /* ViewController.h */,
 				2BD78F201DC1BB6F00D57023 /* ViewController.m */,
-				2BD78F221DC1BB6F00D57023 /* Main.storyboard */,
-				2BD78F251DC1BB6F00D57023 /* Assets.xcassets */,
-				2BD78F271DC1BB6F00D57023 /* LaunchScreen.storyboard */,
-				2BD78F2A1DC1BB6F00D57023 /* Info.plist */,
 				2BD78F191DC1BB6F00D57023 /* Supporting Files */,
 			);
 			path = FadeInAnimation;
@@ -74,9 +87,46 @@
 		2BD78F191DC1BB6F00D57023 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2BD78F221DC1BB6F00D57023 /* Main.storyboard */,
+				2BD78F251DC1BB6F00D57023 /* Assets.xcassets */,
+				2BD78F271DC1BB6F00D57023 /* LaunchScreen.storyboard */,
+				2BD78F2A1DC1BB6F00D57023 /* Info.plist */,
 				2BD78F1A1DC1BB6F00D57023 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD78F301DC1BB8D00D57023 /* FadeInAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				2BD78F311DC1BB9D00D57023 /* FadeInAnimationView.h */,
+				2BD78F321DC1BB9D00D57023 /* FadeInAnimationView.m */,
+			);
+			path = FadeInAnimationView;
+			sourceTree = "<group>";
+		};
+		2BD78F341DC1BBCE00D57023 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2BD78F351DC1BBCE00D57023 /* PureLayou */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2BD78F351DC1BBCE00D57023 /* PureLayou */ = {
+			isa = PBXGroup;
+			children = (
+				2BD78F361DC1BBCE00D57023 /* ALView+PureLayout.h */,
+				2BD78F371DC1BBCE00D57023 /* ALView+PureLayout.m */,
+				2BD78F381DC1BBCE00D57023 /* NSArray+PureLayout.h */,
+				2BD78F391DC1BBCE00D57023 /* NSArray+PureLayout.m */,
+				2BD78F3A1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.h */,
+				2BD78F3B1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m */,
+				2BD78F3C1DC1BBCE00D57023 /* PureLayout+Internal.h */,
+				2BD78F3D1DC1BBCE00D57023 /* PureLayout.h */,
+				2BD78F3E1DC1BBCE00D57023 /* PureLayoutDefines.h */,
+			);
+			path = PureLayou;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD78F411DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				2BD78F211DC1BB6F00D57023 /* ViewController.m in Sources */,
 				2BD78F1E1DC1BB6F00D57023 /* AppDelegate.m in Sources */,
+				2BD78F331DC1BB9D00D57023 /* FadeInAnimationView.m in Sources */,
+				2BD78F3F1DC1BBCE00D57023 /* ALView+PureLayout.m in Sources */,
+				2BD78F401DC1BBCE00D57023 /* NSArray+PureLayout.m in Sources */,
 				2BD78F1B1DC1BB6F00D57023 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
