@@ -10,7 +10,7 @@
 #import "FadeInAnimationView.h"
 #import "PureLayout.h"
 
-static const NSTimeInterval animationDuration  = 2;
+static const NSTimeInterval animationDuration  = 1;
 @interface FadeInAnimationView ()
 
 @property (strong, nonatomic, readwrite) UIImageView *imageView;
@@ -26,7 +26,7 @@ static const NSTimeInterval animationDuration  = 2;
 
 -(instancetype)initWithFrame:(CGRect)frame images:(NSArray <UIImage*>*)images
 {
-    NSAssert([images count], @"The images can not be empty");
+    NSAssert([images count]>1, @"The images must more than two sheets");
     _images = images;
     _index = 0;
     self = [super initWithFrame:frame];
@@ -57,7 +57,7 @@ static const NSTimeInterval animationDuration  = 2;
     weakify(self)
     [UIView animateWithDuration:(animationDuration) animations:^{
         strongify(self)
-        self.imageView.alpha = 0.0;
+        self.imageView.alpha = 0.;
     } completion:^(BOOL finished) {
         strongify(self)
         //  换图
