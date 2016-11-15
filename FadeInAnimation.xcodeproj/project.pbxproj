@@ -17,6 +17,7 @@
 		2BD78F3F1DC1BBCE00D57023 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F371DC1BBCE00D57023 /* ALView+PureLayout.m */; };
 		2BD78F401DC1BBCE00D57023 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F391DC1BBCE00D57023 /* NSArray+PureLayout.m */; };
 		2BD78F411DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD78F3B1DC1BBCE00D57023 /* NSLayoutConstraint+PureLayout.m */; };
+		2BEACA6A1DDB09B1003A1B42 /* FadeTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BEACA691DDB09B1003A1B42 /* FadeTransitionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		2BD78F3C1DC1BBCE00D57023 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		2BD78F3D1DC1BBCE00D57023 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		2BD78F3E1DC1BBCE00D57023 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		2BEACA681DDB09B1003A1B42 /* FadeTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeTransitionView.h; sourceTree = "<group>"; };
+		2BEACA691DDB09B1003A1B42 /* FadeTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeTransitionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 			children = (
 				2BD78F311DC1BB9D00D57023 /* FadeInAnimationView.h */,
 				2BD78F321DC1BB9D00D57023 /* FadeInAnimationView.m */,
+				2BEACA681DDB09B1003A1B42 /* FadeTransitionView.h */,
+				2BEACA691DDB09B1003A1B42 /* FadeTransitionView.m */,
 			);
 			path = FadeInAnimationView;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				2BD78F1E1DC1BB6F00D57023 /* AppDelegate.m in Sources */,
 				2BD78F331DC1BB9D00D57023 /* FadeInAnimationView.m in Sources */,
 				2BD78F3F1DC1BBCE00D57023 /* ALView+PureLayout.m in Sources */,
+				2BEACA6A1DDB09B1003A1B42 /* FadeTransitionView.m in Sources */,
 				2BD78F401DC1BBCE00D57023 /* NSArray+PureLayout.m in Sources */,
 				2BD78F1B1DC1BB6F00D57023 /* main.m in Sources */,
 			);
@@ -363,6 +369,7 @@
 				2BD78F2F1DC1BB6F00D57023 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
